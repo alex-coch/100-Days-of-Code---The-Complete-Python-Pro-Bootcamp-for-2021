@@ -3,3 +3,6 @@ https://replit.com/@appbrewery/day-5-3-exercise
 
 07
 https://replit.com/@appbrewery/Day-7-Hangman-1-End
+
+09
+https://replit.com/@appbrewery/blind-auction-completed?embed=1&output=1#main.py
