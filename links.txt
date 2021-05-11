@@ -9,3 +9,6 @@ https://replit.com/@appbrewery/blind-auction-completed?embed=1&output=1#main.py
 
 10
 https://replit.com/@appbrewery/guess-the-number-final?embed=1&output=1#main.py
+
+15
+https://www.python.org/dev/peps/pep-0008/
