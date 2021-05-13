@@ -13,3 +13,8 @@ https://replit.com/@appbrewery/guess-the-number-final?embed=1&output=1#main.py
 15
 https://www.python.org/dev/peps/pep-0008/
 https://replit.com/@appbrewery/coffee-machine-final
+
+16
+https://pypi.org/
+https://code.google.com/archive/p/prettytable/wikis/Tutorial.wiki
+https://docs.google.com/document/d/e/2PACX-1vTragRHILyj76AvVgpWeOlEaLBXoxPM_43SdEyffIKtOgarj42SoSAsK6LwLAdHQs2qFLGthRZds6ok/pub
