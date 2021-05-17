@@ -18,3 +18,6 @@ https://replit.com/@appbrewery/coffee-machine-final
 https://pypi.org/
 https://code.google.com/archive/p/prettytable/wikis/Tutorial.wiki
 https://docs.google.com/document/d/e/2PACX-1vTragRHILyj76AvVgpWeOlEaLBXoxPM_43SdEyffIKtOgarj42SoSAsK6LwLAdHQs2qFLGthRZds6ok/pub
+
+18
+https://replit.com/@appbrewery/day-18-2-end
