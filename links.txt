@@ -21,3 +21,7 @@ https://docs.google.com/document/d/e/2PACX-1vTragRHILyj76AvVgpWeOlEaLBXoxPM_43Sd
 
 18
 https://replit.com/@appbrewery/day-18-2-end
+https://pypi.org/project/colorgram.py/
+
+19
+https://docs.python.org/3/library/turtle.html#turtle.listen
