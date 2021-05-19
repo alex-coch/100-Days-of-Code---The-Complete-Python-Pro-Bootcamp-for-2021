@@ -23,5 +23,9 @@ https://docs.google.com/document/d/e/2PACX-1vTragRHILyj76AvVgpWeOlEaLBXoxPM_43Sd
 https://replit.com/@appbrewery/day-18-2-end
 https://pypi.org/project/colorgram.py/
 
-19
+19-TKInter
 https://docs.python.org/3/library/turtle.html#turtle.listen
+https://docs.python.org/3.1/library/turtle.html#turtle.textinput
+
+20-Turtle
+https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.tracer
