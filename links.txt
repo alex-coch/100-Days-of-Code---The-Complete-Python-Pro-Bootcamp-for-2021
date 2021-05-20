@@ -29,3 +29,6 @@ https://docs.python.org/3.1/library/turtle.html#turtle.textinput
 
 20-Turtle
 https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.tracer
+
+21-Turtle
+https://docs.python.org/3/library/turtle.html#turtle.shape
