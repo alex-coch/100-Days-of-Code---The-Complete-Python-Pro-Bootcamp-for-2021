@@ -4,7 +4,7 @@
 import requests
 import os
 from twilio.rest import Client
-from twilio.http.http_client import TwilioHttpClient
+# from twilio.http.http_client import TwilioHttpCl
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 api_key = os.environ.get("OWM_API_KEY")

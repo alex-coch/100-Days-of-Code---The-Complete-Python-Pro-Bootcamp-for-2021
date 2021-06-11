@@ -1,0 +1,8 @@
+http://open-notify.org/Open-Notify-API/ISS-Location-Now/
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+https://kanye.rest/
+https://httpstatuses.com/
+https://www.latlong.net/Show-Latitude-Longitude.html
+https://sunrise-sunset.org/api
+https://www.w3schools.com/python/ref_string_split.asp
+https://www.latlong.net/

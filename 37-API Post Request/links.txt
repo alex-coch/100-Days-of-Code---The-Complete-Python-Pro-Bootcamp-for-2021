@@ -1,0 +1,4 @@
+https://pixe.la/
+https://docs.pixe.la/
+https://docs.python-requests.org/en/latest/api/
+https://www.w3schools.com/python/python_datetime.asp
