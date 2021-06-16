@@ -1,0 +1,8 @@
+https://docs.google.com/spreadsheets/d/1YMK-kYDYwuiGZoawQy7zyDjEIU9u8oggCV4H2M9j7os/edit#gid=0
+https://sheety.co/
+https://partners.kiwi.com/
+https://tequila.kiwi.com/portal/login
+https://www.twilio.com/docs/sms
+https://en.wikipedia.org/wiki/IATA_airport_code#Cities_with_multiple_airports
+https://stackoverflow.com/questions/4541629/how-to-create-a-datetime-equal-to-15-minutes-ago/4541668
+https://www.w3schools.com/python/python_datetime.asp
