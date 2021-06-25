@@ -1,0 +1,8 @@
+https://openai.com/blog/openai-api/
+https://www.nutritionix.com/business/api
+https://sheety.co/
+https://gist.github.com/angelabauer/164864b78175bb1ecd3d3fd7f4ee39b7
+https://docs.python-requests.org/en/master/user/authentication/#basic-authentication
+https://stackoverflow.com/questions/29931671/making-an-api-call-in-python-with-an-api-that-requires-a-bearer-token
+https://stackoverflow.com/questions/4906977/how-to-access-environment-variable-values
+https://gist.github.com/angelabauer/2e147663f998bbcf7b403c6c83f56a14
