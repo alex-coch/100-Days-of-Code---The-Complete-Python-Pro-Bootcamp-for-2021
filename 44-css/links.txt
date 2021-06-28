@@ -12,3 +12,4 @@ https://giphy.com/
 https://developer.mozilla.org/en-US/docs/Web/CSS/color
 https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
 https://css3buttongenerator.com/
+https://www.frontendmentor.io/
