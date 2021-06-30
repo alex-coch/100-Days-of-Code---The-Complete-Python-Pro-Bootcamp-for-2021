@@ -1,0 +1,18 @@
+https://www.billboard.com/charts/hot-100/2000-08-12
+https://gist.github.com/angelabauer/0fb1ca02de8f96c79830e0184a1f405c
+https://developer.spotify.com/dashboard/
+https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
+https://developer.spotify.com/documentation/general/guides/authorization-guide/
+https://pypi.org/project/spotipy/
+https://spotipy.readthedocs.io/
+https://spotipy.readthedocs.io/en/2.13.0/#spotipy.oauth2.SpotifyOAuth
+https://developer.spotify.com/documentation/general/guides/scopes/
+https://spotipy.readthedocs.io/en/2.13.0/#spotipy.client.Spotify.current_user
+https://gist.github.com/angelabauer/2229eee1b510e74b518e7dd905340d0c
+https://spotipy.readthedocs.io/en/2.13.0/#ids-uris-and-urls
+https://docs.python.org/3/library/pprint.html
+https://gist.github.com/angelabauer/e6087a48f9d1a87d4ec15fc29830892b
+
+Client ID 1da2a06e7f61487bbed4df8813832005
+Client Secret 4781f347ab1649018e9d0c756c98e23d
+http://example.com/?code=AQBteLLpDquUcfJLBnZk4KIS5xE9Gx5bU7jZFXIjUg_xzjlBwH1NWYTS9lT0HWQKSOoiU1OF8q3xwgIPRPiQafOUF1pa5Rq6CcVlmPcxMQJIb8N42H0qDghRKvETnpb5wsF6zpZugvF0VTlOR8I5AtRF-NDj630cRnXLktpFkvJStCn4s_hCEr7we2r6Tp0
