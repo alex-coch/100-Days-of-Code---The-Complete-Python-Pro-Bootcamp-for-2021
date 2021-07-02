@@ -1,0 +1,5 @@
+https://www.amazon.com/Instant-Pot-Duo-Evo-Plus/dp/B07W55DDFB/ref=sr_1_1?qid=1597662463
+http://myhttpheader.com/
+https://stackoverflow.com/questions/6260457/using-headers-with-the-python-requests-librarys-get-method
+https://gist.github.com/angelabauer/6b2d01cf2c265910ea8c03003244939f
+https://gist.github.com/angelabauer/c354128af8f132ac3be461afa4480e74
