@@ -1,0 +1,11 @@
+https://orteil.dashnet.org/cookieclicker/
+https://chromedriver.chromium.org/downloads
+https://www.w3schools.com/xml/xpath_intro.asp
+https://selenium-python.readthedocs.io/
+https://www.python.org/
+https://en.wikipedia.org/wiki/Main_Page
+http://secure-retreat-92358.herokuapp.com/
+https://www.appbrewery.co/p/newsletter
+https://www.udemy.com/course/the-complete-web-development-bootcamp/?referralCode=F2958B9D9447BDFC8244
+https://orteil.dashnet.org/cookieclicker/
+. https://stackoverflow.com/questions/38959885/python-selenium-permissionerror-winerror-5-access-is-denied
