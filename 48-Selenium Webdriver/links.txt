@@ -9,3 +9,4 @@ https://www.appbrewery.co/p/newsletter
 https://www.udemy.com/course/the-complete-web-development-bootcamp/?referralCode=F2958B9D9447BDFC8244
 https://orteil.dashnet.org/cookieclicker/
 . https://stackoverflow.com/questions/38959885/python-selenium-permissionerror-winerror-5-access-is-denied
+https://gist.github.com/angelabauer/affb3ce61bc79ada90dea26052c27c2b
