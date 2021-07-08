@@ -1,0 +1,5 @@
+https://www.instagram.com/
+https://www.google.com/search?q=how+to+scroll+popup+selnium+python&oq=how+to+scroll+popup+selnium+python&aqs=chrome..69i57j0.19371j0j9&sourceid=chrome&ie=UTF-8
+https://stackoverflow.com/questions/38041974/selenium-scroll-inside-of-popup-div
+https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
+https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight
