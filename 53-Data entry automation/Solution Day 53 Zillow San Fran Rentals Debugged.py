@@ -20,15 +20,17 @@ all_link_elements = soup.select(".list-card-top a")
 all_links = []
 for link in all_link_elements:
     href = link["href"]
-    print(href)
+    # print(href)
     if "http" not in href:
         all_links.append(f"https://www.zillow.com{href}")
     else:
         all_links.append(href)
+# print(all_links)
 
-exit(0)
 all_address_elements = soup.select(".list-card-info address")
+# print(all_address_elements)
 all_addresses = [address.get_text().split(" | ")[-1] for address in all_address_elements]
+# print(all_addresses)
 
 all_price_elements = soup.select(".list-card-heading")
 all_prices = []
@@ -40,19 +42,23 @@ for element in all_price_elements:
     except IndexError:
         print('Multiple listings for the card')
         # Price with multiple listings
-        price = element.select(".list-card-details li")[0].contents[0]
+        print(element.select(".list-card-details li"))
+        try:
+            price = element.select(".list-card-details li")[0].contents[0]
+        except:
+            price = '$0/mo'
     finally:
         all_prices.append(price)
-
+print(all_prices)
 
 # Create Spreadsheet using Google Form
 # Substitute your own path here 👇
-chrome_driver_path = YOUR_PATH_HERE
+chrome_driver_path = 'D:\development\chromedriver.exe'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 for n in range(len(all_links)):
     # Substitute your own Google Form URL here 👇
-    driver.get(URL_TO_YOUR_GOOGLE_FORM)
+    driver.get('https://forms.gle/4HYNz7by9N47Pa8m7')
 
     time.sleep(2)
     address = driver.find_element_by_xpath(
@@ -67,3 +73,5 @@ for n in range(len(all_links)):
     price.send_keys(all_prices[n])
     link.send_keys(all_links[n])
     submit_button.click()
+
+driver.quit()
