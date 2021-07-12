@@ -1,0 +1,8 @@
+https://flask.palletsprojects.com/en/1.1.x/quickstart/
+https://pypi.org/project/Flask/
+http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf
+https://docs.python.org/3/library/stdtypes.html?highlight=__name__#special-attributes
+https://docs.python.org/3/library/__main__.html
+https://replit.com/@appbrewery/python-decorators#main.py
+http://www.pythontutor.com/visualize.html#mode=display
+https://replit.com/@appbrewery/day-54-1-exercise#main.py
