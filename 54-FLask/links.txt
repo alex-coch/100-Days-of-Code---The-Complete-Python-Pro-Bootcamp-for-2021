@@ -6,3 +6,4 @@ https://docs.python.org/3/library/__main__.html
 https://replit.com/@appbrewery/python-decorators#main.py
 http://www.pythontutor.com/visualize.html#mode=display
 https://replit.com/@appbrewery/day-54-1-exercise#main.py
+https://replit.com/@appbrewery/day-54-1-solution#main.py

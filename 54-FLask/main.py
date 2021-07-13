@@ -42,7 +42,7 @@ def outer_function():
     return nested_function
 
 inner_function = outer_function()
-inner_function
+inner_function()
 
 
 ## Simple Python Decorator Functions
