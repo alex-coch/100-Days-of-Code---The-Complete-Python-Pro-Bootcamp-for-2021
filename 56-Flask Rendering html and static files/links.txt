@@ -1,0 +1,4 @@
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#rendering-templates
+https://angelabauer.github.io/cv/
+https://html5up.net/
+https://unsplash.com/

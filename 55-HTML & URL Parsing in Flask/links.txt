@@ -2,3 +2,7 @@ https://flask.palletsprojects.com/en/1.1.x/quickstart/#routing
 https://flask.palletsprojects.com/en/1.1.x/quickstart/#variable-rules
 https://giphy.com/
 https://gist.github.com/angelabauer/202d58a295c516931a7056c995110596
+https://replit.com/@appbrewery/day-55-1-exercise
+https://replit.com/@appbrewery/day-55-1-solution#main.py
+https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif
+https://gist.github.com/angelabauer/26eb9190a094761a9f49b22e8ee4c0fb
