@@ -4,3 +4,4 @@ https://updateyourfooter.com/
 https://genderize.io/
 https://agify.io/
 https://www.npoint.io/
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#routing
