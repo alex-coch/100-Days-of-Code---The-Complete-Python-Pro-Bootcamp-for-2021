@@ -13,3 +13,9 @@ https://getbootstrap.com/docs/4.5/components/navbar/
 https://getbootstrap.com/docs/4.5/components/buttons/
 https://getbootstrap.com/docs/4.5/components/navbar/#toggler
 https://www.codeply.com/p/GVJU3ipWxP
+https://getbootstrap.com/docs/4.5/layout/grid/
+https://www.codeply.com/p/gGAW4KgOrL
+https://fonts.google.com/
+https://fonts.google.com/specimen/Ubuntu
+https://fonts.google.com/specimen/Montserrat
+https://getbootstrap.com/docs/4.5/layout/overview/#containers
