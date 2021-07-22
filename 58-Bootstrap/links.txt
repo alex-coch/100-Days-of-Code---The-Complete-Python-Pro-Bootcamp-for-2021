@@ -19,3 +19,7 @@ https://fonts.google.com/
 https://fonts.google.com/specimen/Ubuntu
 https://fonts.google.com/specimen/Montserrat
 https://getbootstrap.com/docs/4.5/layout/overview/#containers
+https://getbootstrap.com/docs/4.5/components/buttons/
+https://fontawesome.com/v5.15/icons?d=gallery&q=apple
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function
+https://fontawesome.com/v5.15/icons?d=gallery
