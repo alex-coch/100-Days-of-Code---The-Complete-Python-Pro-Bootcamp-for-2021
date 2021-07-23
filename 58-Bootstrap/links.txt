@@ -23,3 +23,9 @@ https://getbootstrap.com/docs/4.5/components/buttons/
 https://fontawesome.com/v5.15/icons?d=gallery&q=apple
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function
 https://fontawesome.com/v5.15/icons?d=gallery
+https://getbootstrap.com/docs/4.5/components/carousel/
+https://getbootstrap.com/docs/4.5/examples/pricing/
+https://getbootstrap.com/docs/4.5/components/card/
+https://bootsnipp.com/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index
+https://www.codeply.com/p/0fYVdrVmZM
