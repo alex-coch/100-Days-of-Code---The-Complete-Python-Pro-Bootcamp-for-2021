@@ -29,3 +29,4 @@ https://getbootstrap.com/docs/4.5/components/card/
 https://bootsnipp.com/
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index
 https://www.codeply.com/p/0fYVdrVmZM
+https://search.google.com/test/mobile-friendly
