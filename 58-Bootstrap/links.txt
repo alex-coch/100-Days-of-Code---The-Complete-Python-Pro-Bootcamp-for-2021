@@ -30,3 +30,4 @@ https://bootsnipp.com/
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index
 https://www.codeply.com/p/0fYVdrVmZM
 https://search.google.com/test/mobile-friendly
+https://codegolf.stackexchange.com/questions/157546/create-a-magic-8-ball
