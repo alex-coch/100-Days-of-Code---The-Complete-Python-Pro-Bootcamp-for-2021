@@ -3,7 +3,6 @@ import random
 import datetime
 import requests
 
-
 app = Flask(__name__, template_folder='template0')
 
 
