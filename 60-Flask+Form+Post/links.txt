@@ -1,0 +1,14 @@
+https://gist.github.com/angelabauer/81c9f4512a14c3cb04ba03540888875d
+https://www.w3schools.com/tags/att_form_method.asp
+https://www.w3schools.com/tags/att_form_action.asp
+https://gist.github.com/angelabauer/889ac7cfdfed5cfeb79559f41c9c6a07
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#http-methods
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#the-request-object
+https://stackoverflow.com/questions/11556958/sending-data-from-html-form-to-a-python-script-in-flask
+https://gist.github.com/angelabauer/045264ca6ad168b986f6687ee1368078
+https://gist.github.com/angelabauer/97e23a7e6a044413ec3ed76456fd1c2e
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#http-methods
+https://gist.github.com/angelabauer/bcb90f5060fe7204814da3249b069b7b
+https://jinja.palletsprojects.com/en/2.11.x/templates/#if
+https://gist.github.com/angelabauer/4db9f611e8b11a86021dc2eb6cdc61e7
+https://gist.github.com/angelabauer/6e9dec2b75b3d6b4b5f2feed011a0d13
