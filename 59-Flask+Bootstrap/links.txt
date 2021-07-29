@@ -1,0 +1,16 @@
+https://bootstrapmade.com/
+https://getbootstrap.com/docs/4.0/examples/
+https://www.creative-tim.com/bootstrap-themes
+https://startbootstrap.com/previews/clean-blog
+https://gist.github.com/angelabauer/a6d17e8335553a52fa78b38abab6f882
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#static-files
+https://gist.github.com/angelabauer/a2a6374bc24c61a34d27f17e935744b7
+https://jinja.palletsprojects.com/en/2.11.x/templates/#include
+
+https://gist.github.com/angelabauer/639a877d2b28a6cc18a7c6d608a2c9a3
+https://api.npoint.io/43644ec4f0013682fc0d
+https://jinja.palletsprojects.com/en/2.11.x/templates/#variables
+https://jinja.palletsprojects.com/en/2.11.x/templates/#for
+https://unsplash.com/
+https://gist.github.com/angelabauer/eada236734c2a8309b2772714f6a432a
+https://gist.github.com/angelabauer/f08f36c04065969f539f133f3b01832b
