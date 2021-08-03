@@ -1,0 +1,34 @@
+https://wtforms.readthedocs.io/en/2.3.x/
+https://gist.github.com/TheMuellenator/29acd670326c6313bc2b8f7e66fd441f
+https://docs.google.com/document/d/e/2PACX-1vRIW_TuZ6z0ASjAoxgJgmzjGYLCDx019tKvphaTwK_Za7fnMKywUuXI0-s5wr0nQI_gprm6J6y7L9rL/pub
+https://flask-wtf.readthedocs.io/en/0.15.x/
+
+Creating forms
+https://flask-wtf.readthedocs.io/en/0.15.x/quickstart/#creating-forms
+
+secret key
+https://stackoverflow.com/questions/22463939/demystify-flask-app-secret-key
+
+github
+https://gist.github.com/angelabauer/162f56578b9193090963a0691c826790
+
+Fields
+https://wtforms.readthedocs.io/en/2.3.x/fields/#basic-fields
+
+
+github
+https://gist.github.com/angelabauer/e5b1a26a79888f67b490c1f53ed2496c
+
+Validators
+https://wtforms.readthedocs.io/en/2.3.x/crash_course/#validators
+
+Errors
+https://wtforms.readthedocs.io/en/2.3.x/crash_course/#displaying-errors
+
+Get data
+https://wtforms.readthedocs.io/en/2.3.x/crash_course/#how-forms-get-data
+
+Inheriting Templates Using Jinja2
+https://gist.github.com/angelabauer/aa7a7516bf02b1f0f1769dadaf4e6cf4
+https://gist.github.com/angelabauer/9842d06ca3b5c1c6668bef0f7f0601cb
+
