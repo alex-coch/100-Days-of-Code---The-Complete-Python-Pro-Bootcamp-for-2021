@@ -1,0 +1,16 @@
+Bootstrap blocks
+https://pythonhosted.org/Flask-Bootstrap/basic-usage.html#templates
+https://pythonhosted.org/Flask-Bootstrap/basic-usage.html#examples
+
+Bootstrap table
+https://getbootstrap.com/docs/4.5/content/tables/
+
+Flask-Bootstrap
+https://pythonhosted.org/Flask-Bootstrap/forms.html
+https://wtforms.readthedocs.io/en/2.3.x/validators/
+
+write to file
+https://www.w3schools.com/python/python_file_write.asp
+
+
+
