@@ -32,3 +32,11 @@ Inheriting Templates Using Jinja2
 https://gist.github.com/angelabauer/aa7a7516bf02b1f0f1769dadaf4e6cf4
 https://gist.github.com/angelabauer/9842d06ca3b5c1c6668bef0f7f0601cb
 
+Flask-Bootstrap
+https://pythonhosted.org/Flask-Bootstrap/basic-usage.html
+https://pythonhosted.org/Flask-Bootstrap/forms.html
+
+end release
+https://repl.it/@appbrewery/day-61-end
+
+
