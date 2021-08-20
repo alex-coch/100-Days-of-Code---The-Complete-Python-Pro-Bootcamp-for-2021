@@ -1,2 +1,20 @@
 src
 https://gist.github.com/angelabauer/66fdff2a3aaf38c75a6c18c50499f32d
+https://gist.github.com/angelabauer/8534bff2eceda9870d489a6719805aa2
+https://gist.github.com/angelabauer/206a8e2ab705157426385f86d8a7d5d0
+https://gist.github.com/angelabauer/d6bec8eec3420ac9632a96d1ac5857b6
+https://gist.github.com/angelabauer/daf0f55d7ed2034ab07be56e345a8471
+https://gist.github.com/angelabauer/0ae27c12b26fa562c705a03b6a0a6b17
+
+Flask Bootstrap forms
+https://pythonhosted.org/Flask-Bootstrap/forms.html
+https://wtforms.readthedocs.io/en/2.3.x/
+https://flask-wtf.readthedocs.io/en/stable/
+
+SQL Alchemy
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/#a-minimal-application
+https://docs.sqlalchemy.org/en/13/orm/query.html#sqlalchemy.orm.query.Query.order_by
+
+api docs
+https://developers.themoviedb.org/3/search/search-movies
+https://developers.themoviedb.org/3/movies/get-movie-details
