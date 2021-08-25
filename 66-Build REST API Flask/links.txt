@@ -1,0 +1,3 @@
+http://api.open-notify.org/iss-now.json
+https://www.kite.com/python/docs/flask.jsonify
+https://gist.github.com/angelabauer/889a0e57359ede23e7b09a7902a45a6e
