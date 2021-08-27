@@ -1,3 +1,9 @@
 http://api.open-notify.org/iss-now.json
 https://www.kite.com/python/docs/flask.jsonify
 https://gist.github.com/angelabauer/889a0e57359ede23e7b09a7902a45a6e
+http://api.open-notify.org/iss-pass.json?lat=50&lon=-0.1
+https://learning.postman.com/docs/publishing-your-api/documenting-your-api/
+https://www.postman.com/downloads/
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#variable-rules
+https://httpstatuses.com/
+https://documenter.getpostman.com/view/2568017/TVRhd9qR
