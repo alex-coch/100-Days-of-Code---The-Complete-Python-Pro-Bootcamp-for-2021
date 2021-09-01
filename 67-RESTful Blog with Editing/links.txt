@@ -1,0 +1,7 @@
+https://flask-ckeditor.readthedocs.io/en/latest/basic.html
+https://pythonhosted.org/Flask-Bootstrap/forms.html
+https://flask-wtf.readthedocs.io/en/stable/
+Docs: https://pythonhosted.org/Flask-Bootstrap/forms.html#form-macro-reference
+Bootstrap Primary Button: https://getbootstrap.com/docs/4.0/components/buttons/
+Docs: https://www.w3schools.com/python/python_datetime.asp
+https://jinja.palletsprojects.com/en/2.11.x/templates/#safe
