@@ -1,0 +1,6 @@
+docs
+https://flask-login.readthedocs.io/en/latest/
+https://flask-login.readthedocs.io/en/latest/#login-example
+https://flask.palletsprojects.com/en/1.1.x/patterns/viewdecorators/#login-required-decorator
+https://flask.palletsprojects.com/en/1.1.x/patterns/errorpages/
+
