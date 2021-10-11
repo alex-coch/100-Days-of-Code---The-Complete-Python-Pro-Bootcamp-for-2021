@@ -6,8 +6,7 @@ import requests
 word_site = "https://www.mit.edu/~ecprice/wordlist.10000"
 
 response = requests.get(word_site)
-WORDS = response.content.splitlines()
-print(WORDS)
+WORDS = response.content.decode("utf-8").splitlines()
 
 # bg='#0fcc1a'
 
@@ -21,7 +20,8 @@ end_time = None
 
 
 def generate_text(word_base=WORDS):
-    text_to_type = 'Type this text: '
+    # text_to_type = 'Type this text: '
+    text_to_type = ''
     for i in range(40):
         if i % 4 == 0:
             text_to_type += '\n'
@@ -73,30 +73,31 @@ def start():
     typing_field.bind("<FocusIn>", time_start)
 
     def show_result(entry=typing_field, text_to_type=text_to_type, results=text):
+        print(text_to_type)
         time_end()
         written_text = typing_field.get()
         writing_time = (end_time - start_time) / 60
         wpm = (len(written_text) / 5 ) / writing_time
         spm = len(written_text) / writing_time
         mistakes = 0
-        if written_text < text_to_type:
+        if len(written_text) < len(text_to_type):
             bigger = len(written_text)
         else:
-            bigger = text_to_type
+            bigger = len(text_to_type)
 
         for i in range(bigger):
+            print(written_text[i], text_to_type[i])
             if written_text[i] != text_to_type[i]:
                 mistakes += 1
         
-        if len(written_text) != len(text_to_type):
-            mistakes += abs(len(written_text) - len(text_to_type))
+        # if len(written_text) != len(text_to_type):
+        #     mistakes += abs(len(written_text) - len(text_to_type))
 
-        accuracy = (len(text_to_type) - mistakes / len(text_to_type)) * 100
+        accuracy = (len(written_text) - mistakes / len(written_text)) * 100
         text.configure(
             text = f'\tYour results are\n' \
-                f'\t{wpm} words per minute\n' \
-                f'\t{spm} signs per minute\n' \
-                f'\taccuracy {accuracy}'
+                f'\t{round(wpm)} words per minute\n' \
+                f'\t{round(spm)} signs per minute\n'
         )
 
 
