@@ -14,18 +14,18 @@ class Ball(Turtle):
         self.x = 10
         self.y = 10
 
-def refresh(self):
-    x = self.xcor() + self.x
-    y = self.ycor() + self.y
-    self.goto(x, y)
+    def refresh(self):
+        x = self.xcor() + self.x
+        y = self.ycor() + self.y
+        self.goto(x, y)
 
-def bouncex(self):
-    self.x *= -1
+    def bouncex(self):
+        self.x *= -1
 
-def bouncey(self):
-    self.y *= -1
+    def bouncey(self):
+        self.y *= -1
 
-def restart(self):
-    self.goto(0, 0)
-    self.bouncey()
-    self.bouncex()
+    def restart(self):
+        self.goto(0, 0)
+        self.bouncey()
+        self.bouncex()
