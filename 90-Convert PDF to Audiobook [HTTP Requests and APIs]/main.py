@@ -2,6 +2,7 @@
 
 
 # ------------------------------------------------------------------------
+import time
 from tkinter import *
 from tkinter import filedialog
 from tkinter import messagebox
@@ -11,7 +12,54 @@ import pdfplumber
 from playsound import playsound
 from pydub import AudioSegment
 
-from polly import Polly
+# from polly import Polly
+
+# ------------------------------------------------------------------------
+from contextlib import closing
+from tempfile import gettempdir
+
+from boto3 import Session
+from botocore.exceptions import BotoCoreError, ClientError
+
+AudioSegment.converter = "d:\\ffmpeg\\ffmpeg\\bin\\ffmpeg.exe"
+AudioSegment.ffmpeg = "d:\\ffmpeg\\ffmpeg\\bin\\ffmpeg.exe"
+AudioSegment.ffprobe ="d:\\ffmpeg\\ffmpeg\\bin\\ffprobe.exe"
+
+class Polly:
+    # Section of the AWS credentials file (~/.aws/credentials).
+    def __init__(self, profile):
+        # self.session = Session(profile_name=profile)
+        self.session = Session(profile_name="default")
+        # alex
+        # self.session = Session(profile_name="adminuser")
+        self.polly = self.session.client('polly')
+
+    def convert(self, text):
+        try:
+            # Request speech synthesis
+            response = self.polly.synthesize_speech(Text=text, OutputFormat='mp3', VoiceId='Joanna', Engine='neural')
+        except (BotoCoreError, ClientError) as error:
+            # The service returned an error
+            return error
+
+        # Access the audio stream from the response
+        if 'AudioStream' in response:
+            # Closing the stream is important because the service throttles on the number of parallel connections.
+            # Use contextlib.closing to ensure the stream object will be closed automatically at the end.
+            with closing(response['AudioStream']) as stream:
+                # Save to temp file
+                output = f'{gettempdir()}/speech.mp3'
+                try:
+                    # Open a file for writing the output as a binary stream
+                    with open(output, 'wb') as file:
+                        file.write(stream.read())
+                        return output
+                except IOError as error:
+                    # Could not write to file
+                    return error
+        else:
+            # The response didn't contain audio data
+            return 'Could not stream audio'
 
 
 class UI:
@@ -30,7 +78,7 @@ class UI:
         self.scroll_bar = Scrollbar(self.frame)
         self.scroll_bar.pack(side='right', fill='y')
         # Create text box for displaying pdf content
-        self.text_box = Text(self.frame, fg='gray', yscrollcommand=self.scroll_bar.set)
+        self.text_box = Text(self.frame, yscrollcommand=self.scroll_bar.set, fg='black')
         self.text_box.insert(0.0, 'Welcome, you can simply type anything here for Polly or from your PDF file.')
         self.text_box.pack(side='left', fill='both', expand=True)
         # Create menu instance from Menu class
@@ -97,8 +145,9 @@ class UI:
         # Get whole content in text box
         self.text = self.text_box.get(1.0, 'end')
         if self.text_box.compare('end-1c', '!=', '0.0'):
-            aws_profile = simpledialog.askstring('Your AWS credential profile', 'Please visit "~/.aws/credentials"')
-            self.polly = Polly(aws_profile)
+            # aws_profile = simpledialog.askstring('Your AWS credential profile', 'Please visit "~/.aws/credentials"')
+            # self.polly = Polly(aws_profile)
+            self.polly = Polly("default")
             try:
                 # Prevent following Polly error
                 # (TextLengthExceededException)
@@ -116,9 +165,12 @@ class UI:
                     result = self.polly.convert(self.text)
                     speech = AudioSegment.from_mp3(result)
                 # Save MP3 file
-                speech.export('output/final-speech.mp3', format='mp3')
+                # speech.export('C:\\Users\\Admin\\AppData\\Local\\Temp\\speech.mp3', format='mp3')
+                speech.export('speech.mp3', format='mp3')
+                # time.sleep(3)
                 # Play MP3 file
-                playsound('output/final-speech.mp3', block=False)
+                # playsound('C:\\Users\\Admin\\AppData\\Local\\Temp\\speech.mp3', block=False)
+                playsound('speech.mp3', False)
             except:
                 messagebox.showerror('Oops!', result)
         else:
@@ -139,47 +191,6 @@ class UI:
         else:
             self.play_button.config(stat='disabled')
             self.clear_button.config(stat='disabled')
-
-# ------------------------------------------------------------------------
-from contextlib import closing
-from tempfile import gettempdir
-
-from boto3 import Session
-from botocore.exceptions import BotoCoreError, ClientError
-
-
-class Polly:
-    # Section of the AWS credentials file (~/.aws/credentials).
-    def __init__(self, profile):
-        self.session = Session(profile_name=profile)
-        self.polly = self.session.client('polly')
-
-    def convert(self, text):
-        try:
-            # Request speech synthesis
-            response = self.polly.synthesize_speech(Text=text, OutputFormat='mp3', VoiceId='Joanna', Engine='neural')
-        except (BotoCoreError, ClientError) as error:
-            # The service returned an error
-            return error
-
-        # Access the audio stream from the response
-        if 'AudioStream' in response:
-            # Closing the stream is important because the service throttles on the number of parallel connections.
-            # Use contextlib.closing to ensure the stream object will be closed automatically at the end.
-            with closing(response['AudioStream']) as stream:
-                # Save to temp file
-                output = f'{gettempdir()}/speech.mp3'
-                try:
-                    # Open a file for writing the output as a binary stream
-                    with open(output, 'wb') as file:
-                        file.write(stream.read())
-                        return output
-                except IOError as error:
-                    # Could not write to file
-                    return error
-        else:
-            # The response didn't contain audio data
-            return 'Could not stream audio'
 
 
 # Launch application

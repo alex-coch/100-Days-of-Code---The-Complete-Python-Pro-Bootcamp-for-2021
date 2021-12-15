@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color palette generator</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+
+        <img src="{{ url_for('static', filename=filename) }}">
+
+    </div>
+    <div class="row justify-content-center">
+        {% for color in colors: %}
+        <div class="col-6 col-md-4 col-sm-3 col-xl-2">
+            <div class="card">
+                <div class="card-header">{{ color }}</div>
+                <div class="card-body" style="background-color: {{ color }};"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>

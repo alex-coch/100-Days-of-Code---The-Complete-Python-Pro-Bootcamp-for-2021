@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color palette generator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- ajax -->
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+    <!-- script to show the uploaded image -->
+    <script>
+
+        function showSubmit(){
+            document.getElementById("buttonAppear").innerHTML = '<button class="btn btn-primary" type="submit">Submit</button>';
+        }
+
+    </script>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" onchange="showSubmit()"/>
+        <span id="buttonAppear"></span>
+    </form>
+
+
+</body>
+</html>
